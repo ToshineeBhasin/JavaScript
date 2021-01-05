@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <h2>Different ways to display</h2>
+    
+    <h3>using document.getElementById :</h3>
+    <p id="demo"></p>
+    <h3>using document.write :</h3>
+    <script>
+        document.getElementById("demo").innerHTML = 5 + 6
+        document.write(5+6);
+    </script>
+
+<h3>using button onclick :</h3>
+<button type="button" onclick="document.write(5+6)">Click me</button>
+
+<h3>using alert :</h3>
+<script>window.alert(5+6);</script>
+
+<h3>using console.log :</h3>
+<script>
+    console.log(5 + 6);
+</script>
+</body>
+</html>
