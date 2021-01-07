@@ -1,0 +1,22 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Array lenght</title>
+</head>
+<body>
+    <p>Adding element using length function</p>
+    <button onclick="myfunc()">Click to add element</button>
+    <p id="demo"></p>
+    <script>
+        var fruits = ["Banana","Orange","Mango","Apple"];
+        document.getElementById("demo").innerHTML = fruits;
+
+        function myfunc(){
+            fruits[fruits.length] = "Kiwi";
+            document.getElementById("demo").innerHTML = fruits;
+        }
+    </script>
+</body>
+</html>

@@ -1,0 +1,20 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Deleting element from array</title>
+</head>
+<body>
+    <p id="demo1"></p>
+    <p id="demo2"></p>
+
+    <script>
+        var fruits = ["Banana","Mango","Guava","Orange"];
+        document.getElementById("demo1").innerHTML = 
+        "Elements in array are   " + fruits;
+        delete fruits[0];
+        document.getElementById("demo2").innerHTML = "After deleting first element, array is  " + fruits;
+    </script>
+</body>
+</html>

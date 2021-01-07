@@ -1,0 +1,19 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>pop element from array</title>
+</head>
+<body>
+    <p id ="demo1"></p>
+    <p id ="demo2"></p>
+    <p id ="demo3"></p>
+    <script>
+        var fruits = ["Banana","apple","chiku","grapes","mango"];
+        document.getElementById("demo1").innerHTML = "Elements in array :  " + fruits;
+        document.getElementById("demo2").innerHTML = "Poped element from array :  " + fruits.pop();
+        document.getElementById("demo3").innerHTML = "Elements in array after pop :  " + fruits;
+    </script>
+</body>
+</html>
